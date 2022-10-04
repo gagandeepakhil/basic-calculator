@@ -151,7 +151,7 @@ function applyOp(op, b, a)
         {
             return ("undefined");
         }
-        return (a / b );
+        return (parseInt(a / b ,10) );
     }
     return 0;
 }
